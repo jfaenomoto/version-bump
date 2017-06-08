@@ -1,0 +1,7 @@
+startingVersion = '2.6.0'
+
+autobump {
+    majorPattern = ~/(?m).*/major$.*
+    minorPattern = ~/(?m).*/feature.*
+    patchPattern = ~/(?m).*/hotfix.*
+}
